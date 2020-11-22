@@ -11,7 +11,7 @@ function RenderLeader({leader}) {
       <div className="row">
         <div className="col-12 col-sm-3 d-flex">
           <Media left middle>
-            <Media object src={baseUrl +  leader.image} alt={leader.name} />
+            <Media object src={baseUrl + leader.image} alt={leader.name} />
           </Media>
         </div>
         <div className="col-12 col-sm-9">
