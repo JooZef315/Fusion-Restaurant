@@ -5,6 +5,9 @@
 /build
 /.pnp
 .pnp.js
+/asset-manifest-kson.txt
+.db.json
+.asset-manifest-kson.txt
 
 # testing
 /coverage

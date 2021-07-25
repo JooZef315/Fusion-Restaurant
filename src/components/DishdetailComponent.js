@@ -3,7 +3,7 @@ import {Modal, ModalHeader, ModalBody, Button, Label, Col, Row, Card, CardImg, C
 import { Link } from 'react-router-dom';
 import { Control, LocalForm, Errors } from 'react-redux-form';
 import { Loading } from './LoadingComponent';
-import { baseUrl } from '../shared/baseUrl';
+import { baseUrl, imgUrl } from '../shared/baseUrl';
 import { FadeTransform, Fade, Stagger } from 'react-animation-components';
 
 
@@ -129,7 +129,7 @@ const minLength = (len) => (val) => val && (val.length >= len);
         <div className="col-12 col-md-5 m-1">
           <FadeTransform in  transformProps={{exitTransform: 'scale(0.5) translateY(-50%)'}}>
             <Card>
-              <CardImg top src={baseUrl + dish.image} alt={dish.name} />
+              <CardImg top src={imgUrl + dish.image} alt={dish.name} />
               <CardBody>
                 <CardTitle className="dish">
                   {dish.name}

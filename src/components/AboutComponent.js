@@ -2,7 +2,7 @@ import React from 'react';
 import { Breadcrumb, BreadcrumbItem, Card, CardBody, CardHeader, CardImg, CardText, CardTitle, Media } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import { Loading } from './LoadingComponent';
-import { baseUrl } from '../shared/baseUrl';
+import { baseUrl, imgUrl } from '../shared/baseUrl';
 import {Fade, Stagger } from 'react-animation-components';
 
 function RenderLeader({leader}) {
@@ -11,7 +11,7 @@ function RenderLeader({leader}) {
       <div className="row">
         <div className="col-12 col-sm-3 d-flex">
           <Media left middle>
-            <Media object src={baseUrl + leader.image} alt={leader.name} />
+            <Media object src={imgUrl + leader.image} alt={leader.name} />
           </Media>
         </div>
         <div className="col-12 col-sm-9">
