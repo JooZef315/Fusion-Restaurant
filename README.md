@@ -1,1 +1,5 @@
-#### A SPA using react, reactstrp and Redux , FETCH is also used to call an APi using jason-server
+#### A single page application with react
+I used: 
+ - reactstrp and  
+ - Redux  
+ - jason-server
