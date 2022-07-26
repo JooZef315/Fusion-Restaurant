@@ -1,4 +1,4 @@
-#### A single page application with react
+#### A a restaurant single page application with **react**
 I used: 
  - Reactstrap 
  - Redux  
