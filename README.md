@@ -2,7 +2,7 @@
 I used: 
  - Reactstrap 
  - Redux  
- - jason-server
+ - json-server
 
 
 ## Usage
